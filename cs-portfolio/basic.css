@@ -1,0 +1,165 @@
+/*
+    Hey! Cool. You're looking at the code.
+    *That's Great!*
+    
+    Here's the thing:
+    1.  The code below and its encoded design are held in copyright
+        by the author, Talus Buchanan Baddley.
+    
+    2.  *But,* you may use this code in your own work UNDER THE FOLLOWING CONDITIONS:
+        
+        -   You agree to leave the design notice visible at the bottom of the page;
+        -   You agree never to sell this design or use it for any commercial purpose;
+        -   If you substantially change the design of the page, beyond minor
+            stylistic preferences such as font and color modifications,
+            you agree, in mutuality with Talus Baddley, that the design is no longer
+            the work of Talus Baddley, and that this agreement is no longer applicable,
+            and you agree to remove such notices from the page and source code;
+        -   If you include recognizable elements of the design code within your own
+            work, you agree to acknowledge Talus Baddley for those elements within
+            the work in an appropriately non-hidden location.
+        -   You acknowledge that this code comes with absolutely no warranty of any kind;
+        -   You agree to leave these several conditions at the top of the source;  AND,
+        -   You agree to require all who receive this design code from you to abide
+            by all of these same agreements above.
+    
+    3.  Have fun!
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.clear {
+    clear: both;
+    height: 0;
+}
+
+body {
+    background-color: rgb(230, 233, 237);
+    font-family: 'Baskerville', 'Adobe Jenson Pro', 'Jenson Pro', 'Jenson', 'Minion Pro', 'Minion', 'Gentium', 'Gentium Alt', 'Hoefler Text', 'Hoefler', 'Georgia', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Avenir Next', 'Avenir', 'Helvetica Neue', 'Helvetica', 'Futura', 'Bell Gothic Std', 'Bell Gothic', sans-serif;
+    font-weight: 600;
+}
+
+p {
+    margin-bottom: 0.75em;
+    text-align: justify;
+}
+
+h2 {
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+
+h3 {
+    margin-top: 1.5em;
+    margin-bottom: 1.3em;
+}
+
+a {
+    color: rgb(100, 100, 100);
+}
+
+a img {
+    border: none;
+}
+
+a:hover {
+    color: rgb(75, 75, 75);
+}
+
+a:active {
+    color: rgb(60, 60, 60);
+}
+
+a:visited {
+    color: rgb(75, 75, 75);
+}
+
+div#everything {
+    margin-top: 10em;
+    white-space: nowrap;
+}
+
+div#everything * { white-space: normal; }
+
+div#headspace {
+    background-color: #4a525a;  /* Shamelessly Daring Fireball Grey */
+    position: fixed;
+    top: 0;  left: 0;  right: 0;
+    padding: 2.5em;
+    color: white;
+}
+
+div#headspace h1 {
+    text-align: left;
+}
+
+div.column {
+    display: inline-block;
+    vertical-align: top;
+    width: 50em;
+    max-width: 60%;
+    overflow: auto;
+    margin-left: 3em;
+    margin-right: 3em;
+    margin-bottom: 8em;
+}
+
+div.column.firstly { margin-left: 6em; }
+
+div.column.lastly { margin-right: 6em; }
+
+
+div.back-to-top {
+    margin: 1em;
+    margin-top: 2em;
+    padding: 0.5em;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.4em;
+    display: none;
+}
+
+div.back-to-top a {
+
+}
+
+
+
+
+div.inline-image {
+    width: 40%;
+    float: right;
+    clear: both;
+    /* max-width set per image contained */
+    margin-left: 2em;
+    margin-bottom: 1em;
+    margin-top: 0.25em;
+}
+
+div.inline-image img {
+    width: 100%;
+}
+
+div.inline-image h5 {
+    font-weight: normal;
+    text-align: center;
+    font-style: italic;
+}
+
+
+
+div#sosumi {
+    padding: 0.5em;
+    text-align: left;
+    font-weight: normal;
+    opacity: 0.8;
+}
+
