@@ -99,7 +99,7 @@ div#headspace {
     background-color: #4a525a;  /* Shamelessly Daring Fireball Grey */
     position: fixed;
     top: 0;  left: 0;  right: 0;
-    padding: 2.5em;
+    padding: 1.5em 2.5em;
     color: white;
 }
 
