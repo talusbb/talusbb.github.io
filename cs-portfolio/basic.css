@@ -39,7 +39,8 @@ div.clear {
 
 body {
     background-color: rgb(230, 233, 237);
-    font-family: 'Baskerville', 'Adobe Jenson Pro', 'Jenson Pro', 'Jenson', 'Minion Pro', 'Minion', 'Gentium', 'Gentium Alt', 'Hoefler Text', 'Hoefler', 'Georgia', serif;
+    font-family: 'Bell MT', 'Baskerville', 'Adobe Jenson Pro', 'Jenson Pro', 'Jenson', 'Minion Pro', 'Minion', 'Gentium', 'Gentium Alt', 'Hoefler Text', 'Hoefler', 'Georgia', serif;
+    font-size: 115%;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -52,7 +53,12 @@ p {
     text-align: justify;
 }
 
+h1 {
+    font-size: 1.8em;
+}
+
 h2 {
+    font-size: 1.5em;
     margin-top: 1.5em;
     margin-bottom: 1em;
 }
